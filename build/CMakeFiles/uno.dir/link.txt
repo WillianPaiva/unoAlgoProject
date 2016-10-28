@@ -1,0 +1,1 @@
+/usr/bin/c++     -Wl,--export-dynamic CMakeFiles/uno.dir/src/main/Card.cpp.o CMakeFiles/uno.dir/src/main/Potato.cpp.o CMakeFiles/uno.dir/src/main/Signature.cpp.o CMakeFiles/uno.dir/src/main/main.cpp.o  -o uno -rdynamic /usr/lib64/libboost_filesystem.so /usr/lib64/libboost_system.so 

@@ -1,0 +1,10 @@
+/home/willian/Documents/algo/uno/project/build/CMakeFiles/edit_cache.dir
+/home/willian/Documents/algo/uno/project/build/CMakeFiles/package_source.dir
+/home/willian/Documents/algo/uno/project/build/CMakeFiles/rebuild_cache.dir
+/home/willian/Documents/algo/uno/project/build/CMakeFiles/list_install_components.dir
+/home/willian/Documents/algo/uno/project/build/CMakeFiles/install.dir
+/home/willian/Documents/algo/uno/project/build/CMakeFiles/uno.dir
+/home/willian/Documents/algo/uno/project/build/CMakeFiles/package.dir
+/home/willian/Documents/algo/uno/project/build/CMakeFiles/unit_tests.dir
+/home/willian/Documents/algo/uno/project/build/CMakeFiles/install/strip.dir
+/home/willian/Documents/algo/uno/project/build/CMakeFiles/install/local.dir
