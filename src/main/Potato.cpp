@@ -103,7 +103,7 @@ void Potato::genSignatures(vector<Potato *> p) {
         }
         bool found = false;
         for(auto const &si : this->sigs){
-          if(si->equals(lis, used,type)){
+          if(si->equals(lis, used,type,this->id,value->getId())){
             if(si->getSize() < l.size()){
               si->setSize(l.size());
             }
@@ -111,8 +111,8 @@ void Potato::genSignatures(vector<Potato *> p) {
           }
 
         }
-        if(!found && l.size() > 1){
-          this->sigs.push_back(new Signature(lis,used,type,l.size()));
+        if(!found && l.size() > 1){   
+          this->sigs.push_back(new Signature(lis,used,type,l.size(),this->id,value->getId()));
         }
       }
     }
