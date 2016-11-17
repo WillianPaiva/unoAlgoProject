@@ -1,4 +1,4 @@
-# Install script for directory: /home/willian/Documents/algo/uno/project
+# Install script for directory: /home/willian/Documents/algo/uno/unoAlgoProject
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/uno_destination/uno"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/uno_destination" TYPE EXECUTABLE FILES "/home/willian/Documents/algo/uno/project/build/uno")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/uno_destination" TYPE EXECUTABLE FILES "/home/willian/Documents/algo/uno/unoAlgoProject/build/uno")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/uno_destination/uno" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/uno_destination/uno")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -49,7 +49,7 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/uno_destination" TYPE DIRECTORY FILES "/home/willian/Documents/algo/uno/project/resources")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/uno_destination" TYPE DIRECTORY FILES "/home/willian/Documents/algo/uno/unoAlgoProject/resources")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/willian/Documents/algo/uno/project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/willian/Documents/algo/uno/unoAlgoProject/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

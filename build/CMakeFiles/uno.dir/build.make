@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/willian/Documents/algo/uno/project
+CMAKE_SOURCE_DIR = /home/willian/Documents/algo/uno/unoAlgoProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/willian/Documents/algo/uno/project/build
+CMAKE_BINARY_DIR = /home/willian/Documents/algo/uno/unoAlgoProject/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/uno.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/uno.dir/flags.make
 
 CMakeFiles/uno.dir/src/main/Card.cpp.o: CMakeFiles/uno.dir/flags.make
 CMakeFiles/uno.dir/src/main/Card.cpp.o: ../src/main/Card.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/willian/Documents/algo/uno/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/uno.dir/src/main/Card.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uno.dir/src/main/Card.cpp.o -c /home/willian/Documents/algo/uno/project/src/main/Card.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/willian/Documents/algo/uno/unoAlgoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/uno.dir/src/main/Card.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uno.dir/src/main/Card.cpp.o -c /home/willian/Documents/algo/uno/unoAlgoProject/src/main/Card.cpp
 
 CMakeFiles/uno.dir/src/main/Card.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uno.dir/src/main/Card.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/willian/Documents/algo/uno/project/src/main/Card.cpp > CMakeFiles/uno.dir/src/main/Card.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/willian/Documents/algo/uno/unoAlgoProject/src/main/Card.cpp > CMakeFiles/uno.dir/src/main/Card.cpp.i
 
 CMakeFiles/uno.dir/src/main/Card.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uno.dir/src/main/Card.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/willian/Documents/algo/uno/project/src/main/Card.cpp -o CMakeFiles/uno.dir/src/main/Card.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/willian/Documents/algo/uno/unoAlgoProject/src/main/Card.cpp -o CMakeFiles/uno.dir/src/main/Card.cpp.s
 
 CMakeFiles/uno.dir/src/main/Card.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/uno.dir/src/main/Card.cpp.o.provides.build: CMakeFiles/uno.dir/src/ma
 
 CMakeFiles/uno.dir/src/main/Potato.cpp.o: CMakeFiles/uno.dir/flags.make
 CMakeFiles/uno.dir/src/main/Potato.cpp.o: ../src/main/Potato.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/willian/Documents/algo/uno/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/uno.dir/src/main/Potato.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uno.dir/src/main/Potato.cpp.o -c /home/willian/Documents/algo/uno/project/src/main/Potato.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/willian/Documents/algo/uno/unoAlgoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/uno.dir/src/main/Potato.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uno.dir/src/main/Potato.cpp.o -c /home/willian/Documents/algo/uno/unoAlgoProject/src/main/Potato.cpp
 
 CMakeFiles/uno.dir/src/main/Potato.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uno.dir/src/main/Potato.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/willian/Documents/algo/uno/project/src/main/Potato.cpp > CMakeFiles/uno.dir/src/main/Potato.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/willian/Documents/algo/uno/unoAlgoProject/src/main/Potato.cpp > CMakeFiles/uno.dir/src/main/Potato.cpp.i
 
 CMakeFiles/uno.dir/src/main/Potato.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uno.dir/src/main/Potato.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/willian/Documents/algo/uno/project/src/main/Potato.cpp -o CMakeFiles/uno.dir/src/main/Potato.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/willian/Documents/algo/uno/unoAlgoProject/src/main/Potato.cpp -o CMakeFiles/uno.dir/src/main/Potato.cpp.s
 
 CMakeFiles/uno.dir/src/main/Potato.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/uno.dir/src/main/Potato.cpp.o.provides.build: CMakeFiles/uno.dir/src/
 
 CMakeFiles/uno.dir/src/main/Signature.cpp.o: CMakeFiles/uno.dir/flags.make
 CMakeFiles/uno.dir/src/main/Signature.cpp.o: ../src/main/Signature.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/willian/Documents/algo/uno/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/uno.dir/src/main/Signature.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uno.dir/src/main/Signature.cpp.o -c /home/willian/Documents/algo/uno/project/src/main/Signature.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/willian/Documents/algo/uno/unoAlgoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/uno.dir/src/main/Signature.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uno.dir/src/main/Signature.cpp.o -c /home/willian/Documents/algo/uno/unoAlgoProject/src/main/Signature.cpp
 
 CMakeFiles/uno.dir/src/main/Signature.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uno.dir/src/main/Signature.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/willian/Documents/algo/uno/project/src/main/Signature.cpp > CMakeFiles/uno.dir/src/main/Signature.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/willian/Documents/algo/uno/unoAlgoProject/src/main/Signature.cpp > CMakeFiles/uno.dir/src/main/Signature.cpp.i
 
 CMakeFiles/uno.dir/src/main/Signature.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uno.dir/src/main/Signature.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/willian/Documents/algo/uno/project/src/main/Signature.cpp -o CMakeFiles/uno.dir/src/main/Signature.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/willian/Documents/algo/uno/unoAlgoProject/src/main/Signature.cpp -o CMakeFiles/uno.dir/src/main/Signature.cpp.s
 
 CMakeFiles/uno.dir/src/main/Signature.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/uno.dir/src/main/Signature.cpp.o.provides.build: CMakeFiles/uno.dir/s
 
 CMakeFiles/uno.dir/src/main/main.cpp.o: CMakeFiles/uno.dir/flags.make
 CMakeFiles/uno.dir/src/main/main.cpp.o: ../src/main/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/willian/Documents/algo/uno/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/uno.dir/src/main/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uno.dir/src/main/main.cpp.o -c /home/willian/Documents/algo/uno/project/src/main/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/willian/Documents/algo/uno/unoAlgoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/uno.dir/src/main/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uno.dir/src/main/main.cpp.o -c /home/willian/Documents/algo/uno/unoAlgoProject/src/main/main.cpp
 
 CMakeFiles/uno.dir/src/main/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uno.dir/src/main/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/willian/Documents/algo/uno/project/src/main/main.cpp > CMakeFiles/uno.dir/src/main/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/willian/Documents/algo/uno/unoAlgoProject/src/main/main.cpp > CMakeFiles/uno.dir/src/main/main.cpp.i
 
 CMakeFiles/uno.dir/src/main/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uno.dir/src/main/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/willian/Documents/algo/uno/project/src/main/main.cpp -o CMakeFiles/uno.dir/src/main/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/willian/Documents/algo/uno/unoAlgoProject/src/main/main.cpp -o CMakeFiles/uno.dir/src/main/main.cpp.s
 
 CMakeFiles/uno.dir/src/main/main.cpp.o.requires:
 
@@ -171,7 +171,7 @@ uno: CMakeFiles/uno.dir/build.make
 uno: /usr/lib64/libboost_filesystem.so
 uno: /usr/lib64/libboost_system.so
 uno: CMakeFiles/uno.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/willian/Documents/algo/uno/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable uno"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/willian/Documents/algo/uno/unoAlgoProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable uno"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/uno.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -191,6 +191,6 @@ CMakeFiles/uno.dir/clean:
 .PHONY : CMakeFiles/uno.dir/clean
 
 CMakeFiles/uno.dir/depend:
-	cd /home/willian/Documents/algo/uno/project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/willian/Documents/algo/uno/project /home/willian/Documents/algo/uno/project /home/willian/Documents/algo/uno/project/build /home/willian/Documents/algo/uno/project/build /home/willian/Documents/algo/uno/project/build/CMakeFiles/uno.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/willian/Documents/algo/uno/unoAlgoProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/willian/Documents/algo/uno/unoAlgoProject /home/willian/Documents/algo/uno/unoAlgoProject /home/willian/Documents/algo/uno/unoAlgoProject/build /home/willian/Documents/algo/uno/unoAlgoProject/build /home/willian/Documents/algo/uno/unoAlgoProject/build/CMakeFiles/uno.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uno.dir/depend
 

@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/willian/Documents/algo/uno/project/src/main/Card.cpp" "/home/willian/Documents/algo/uno/project/build/CMakeFiles/unit_tests.dir/src/main/Card.cpp.o"
-  "/home/willian/Documents/algo/uno/project/src/main/Potato.cpp" "/home/willian/Documents/algo/uno/project/build/CMakeFiles/unit_tests.dir/src/main/Potato.cpp.o"
-  "/home/willian/Documents/algo/uno/project/src/main/Signature.cpp" "/home/willian/Documents/algo/uno/project/build/CMakeFiles/unit_tests.dir/src/main/Signature.cpp.o"
-  "/home/willian/Documents/algo/uno/project/src/main/main.cpp" "/home/willian/Documents/algo/uno/project/build/CMakeFiles/unit_tests.dir/src/main/main.cpp.o"
-  "/home/willian/Documents/algo/uno/project/src/test/test.cpp" "/home/willian/Documents/algo/uno/project/build/CMakeFiles/unit_tests.dir/src/test/test.cpp.o"
+  "/home/willian/Documents/algo/uno/unoAlgoProject/src/main/Card.cpp" "/home/willian/Documents/algo/uno/unoAlgoProject/build/CMakeFiles/unit_tests.dir/src/main/Card.cpp.o"
+  "/home/willian/Documents/algo/uno/unoAlgoProject/src/main/Potato.cpp" "/home/willian/Documents/algo/uno/unoAlgoProject/build/CMakeFiles/unit_tests.dir/src/main/Potato.cpp.o"
+  "/home/willian/Documents/algo/uno/unoAlgoProject/src/main/Signature.cpp" "/home/willian/Documents/algo/uno/unoAlgoProject/build/CMakeFiles/unit_tests.dir/src/main/Signature.cpp.o"
+  "/home/willian/Documents/algo/uno/unoAlgoProject/src/main/main.cpp" "/home/willian/Documents/algo/uno/unoAlgoProject/build/CMakeFiles/unit_tests.dir/src/main/main.cpp.o"
+  "/home/willian/Documents/algo/uno/unoAlgoProject/src/test/test.cpp" "/home/willian/Documents/algo/uno/unoAlgoProject/build/CMakeFiles/unit_tests.dir/src/test/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -42,6 +42,8 @@ bool Potato::getNext(vector<Card *> &cards, Card &c, Potato *p) {
   return false;
 }
 
+<<<<<<< HEAD
+=======
 vector<Signature *> Potato::getSigs() { return this->sigs; }
 
 void Potato::genSignatures(vector<Potato *> p) {
@@ -136,3 +138,4 @@ void Potato::genSignatureCalc(vector<Card *> cards, vector<Card *> result,
   vector<Card *> res(result);
   this->interpolations.push_back(res);
 }
+>>>>>>> master

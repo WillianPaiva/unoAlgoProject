@@ -7,7 +7,6 @@ CMakeFiles/uno.dir/src/main/Card.cpp.o: ../src/main/Card.h
 CMakeFiles/uno.dir/src/main/Potato.cpp.o: ../src/main/Card.h
 CMakeFiles/uno.dir/src/main/Potato.cpp.o: ../src/main/Potato.cpp
 CMakeFiles/uno.dir/src/main/Potato.cpp.o: ../src/main/Potato.h
-CMakeFiles/uno.dir/src/main/Potato.cpp.o: ../src/main/Signature.h
 
 CMakeFiles/uno.dir/src/main/Signature.cpp.o: ../src/main/Card.h
 CMakeFiles/uno.dir/src/main/Signature.cpp.o: ../src/main/Signature.cpp

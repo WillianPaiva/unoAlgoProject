@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/willian/Documents/algo/uno/project/src/main/Card.cpp
+/home/willian/Documents/algo/uno/unoAlgoProject/src/main/Card.cpp
 Card.h
-/home/willian/Documents/algo/uno/project/src/main/Card.h
+/home/willian/Documents/algo/uno/unoAlgoProject/src/main/Card.h
 boost/algorithm/string/classification.hpp
 -
 boost/algorithm/string/split.hpp
@@ -16,7 +16,7 @@ boost/algorithm/string/split.hpp
 vector
 -
 
-/home/willian/Documents/algo/uno/project/src/main/Card.h
+/home/willian/Documents/algo/uno/unoAlgoProject/src/main/Card.h
 algorithm
 -
 iostream
@@ -28,17 +28,15 @@ sstream
 string
 -
 
-/home/willian/Documents/algo/uno/project/src/main/Colors.h
+/home/willian/Documents/algo/uno/unoAlgoProject/src/main/Colors.h
 
-/home/willian/Documents/algo/uno/project/src/main/Potato.cpp
+/home/willian/Documents/algo/uno/unoAlgoProject/src/main/Potato.cpp
 Potato.h
-/home/willian/Documents/algo/uno/project/src/main/Potato.h
+/home/willian/Documents/algo/uno/unoAlgoProject/src/main/Potato.h
 
-/home/willian/Documents/algo/uno/project/src/main/Potato.h
+/home/willian/Documents/algo/uno/unoAlgoProject/src/main/Potato.h
 Card.h
-/home/willian/Documents/algo/uno/project/src/main/Card.h
-Signature.h
-/home/willian/Documents/algo/uno/project/src/main/Signature.h
+/home/willian/Documents/algo/uno/unoAlgoProject/src/main/Card.h
 algorithm
 -
 iostream
@@ -52,13 +50,13 @@ string
 vector
 -
 
-/home/willian/Documents/algo/uno/project/src/main/Signature.cpp
+/home/willian/Documents/algo/uno/unoAlgoProject/src/main/Signature.cpp
 Signature.h
-/home/willian/Documents/algo/uno/project/src/main/Signature.h
+/home/willian/Documents/algo/uno/unoAlgoProject/src/main/Signature.h
 
-/home/willian/Documents/algo/uno/project/src/main/Signature.h
+/home/willian/Documents/algo/uno/unoAlgoProject/src/main/Signature.h
 Card.h
-/home/willian/Documents/algo/uno/project/src/main/Card.h
+/home/willian/Documents/algo/uno/unoAlgoProject/src/main/Card.h
 algorithm
 -
 iostream
@@ -72,27 +70,31 @@ string
 vector
 -
 
-/home/willian/Documents/algo/uno/project/src/main/main.cpp
+/home/willian/Documents/algo/uno/unoAlgoProject/src/main/main.cpp
 main.h
-/home/willian/Documents/algo/uno/project/src/main/main.h
-Card.h
-/home/willian/Documents/algo/uno/project/src/main/Card.h
-Colors.h
-/home/willian/Documents/algo/uno/project/src/main/Colors.h
-Potato.h
-/home/willian/Documents/algo/uno/project/src/main/Potato.h
+/home/willian/Documents/algo/uno/unoAlgoProject/src/main/main.h
 fstream
 -
 iostream
 -
 string
 -
+Card.h
+/home/willian/Documents/algo/uno/unoAlgoProject/src/main/Card.h
+Colors.h
+/home/willian/Documents/algo/uno/unoAlgoProject/src/main/Colors.h
+Potato.h
+/home/willian/Documents/algo/uno/unoAlgoProject/src/main/Potato.h
+Signature.h
+/home/willian/Documents/algo/uno/unoAlgoProject/src/main/Signature.h
 boost/filesystem.hpp
 -
 
-/home/willian/Documents/algo/uno/project/src/main/main.h
+/home/willian/Documents/algo/uno/unoAlgoProject/src/main/main.h
 Potato.h
-/home/willian/Documents/algo/uno/project/src/main/Potato.h
+/home/willian/Documents/algo/uno/unoAlgoProject/src/main/Potato.h
+Signature.h
+/home/willian/Documents/algo/uno/unoAlgoProject/src/main/Signature.h
 Card.h
-/home/willian/Documents/algo/uno/project/src/main/Card.h
+/home/willian/Documents/algo/uno/unoAlgoProject/src/main/Card.h
 

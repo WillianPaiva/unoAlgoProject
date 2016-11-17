@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++1y -Wall -Wfloat-conversion
 
 CXX_DEFINES = -DUNIT_TESTS
 
-CXX_INCLUDES = -I/home/willian/Documents/algo/uno/project/src/main 
+CXX_INCLUDES = -I/home/willian/Documents/algo/uno/unoAlgoProject/src/main 
 
