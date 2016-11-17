@@ -203,31 +203,31 @@ void sigcalc(vector<Card *> interp, vector<Card *> intersec) {
   }
 }
 
-void merge(vector<Card *> interception) {
-  for (auto const &s : sigs) {
-    for (auto const &m : mergesigs) {
-      if (s->getType() == 'a') {
-        if(m->getType() == 'a'){
-        }
-        if(m->getType() == 'b'){
-        }
-      }
-      if (s->getType() == 'b') {
-        if(m->getType() == 'a'){
-        }
-        if(m->getType() == 'b'){
-        }
-      }
-    }
-  }
-}
+// void merge(vector<Card *> interception) {
+//   for (auto const &s : sigs) {
+//     for (auto const &m : mergesigs) {
+//       if (s->getType() == 'a') {
+//         if(m->getType() == 'a'){
+//         }
+//         if(m->getType() == 'b'){
+//         }
+//       }
+//       if (s->getType() == 'b') {
+//         if(m->getType() == 'a'){
+//         }
+//         if(m->getType() == 'b'){
+//         }
+//       }
+//     }
+//   }
+// }
 
-void mergeAA(Signature * a, Signature * b){
-  for(auto const &us a->getUsed()){
-  }
-  if(a->getCards() != b->getCards()){
-  }
-}
-void mergeAB(Signature * a, Signature * b);
-void mergeBA(Signature * a, Signature * b);
-void mergeBB(Signature * a, Signature * b);
+// void mergeAA(Signature * a, Signature * b){
+//   for(auto const &us a->getUsed()){
+//   }
+//   if(a->getCards() != b->getCards()){
+//   }
+// }
+// void mergeAB(Signature * a, Signature * b);
+// void mergeBA(Signature * a, Signature * b);
+// void mergeBB(Signature * a, Signature * b);

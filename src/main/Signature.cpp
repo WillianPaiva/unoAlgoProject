@@ -1,13 +1,11 @@
 #include "Signature.h"
 
 Signature::Signature(vector<Card *> cards, vector<Card *> used, char type,
-                     int size, int potato1, int potato2) {
+                     int size) {
   this->cards = cards;
   this->used = used;
   this->type = type;
   this->size = size;
-  this->potato1=potato1;
-  this->potato2=potato2;
 }
 
 string Signature::toString() {
@@ -21,7 +19,6 @@ string Signature::toString() {
   for(auto const &value : used){
     oss << value->toString();
   }
-  oss << "}}," << size << "(" << potato1 << "),(" << potato2 << ")" ;
   return oss.str();
 }
 
